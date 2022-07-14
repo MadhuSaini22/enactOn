@@ -71,18 +71,25 @@ function App() {
     <div className="main">
       <div class="container">
         <form className="d-flex" onSubmit={handleSearch}>
-          <input
-            type="text"
-            placeholder="Search by Name..."
-            value={value}
-            onChange={(e) => setValue(e.target.value)}
-          />
-          <button type="submit" className="btn">
-            Search
-          </button>
-          <button className="btn" onClick={() => handleReset()}>
-            Reset
-          </button>
+          <div className="form-row">
+            <input
+              type="text"
+              placeholder="Search by Name..."
+              value={value}
+              onChange={(e) => setValue(e.target.value)}
+            />
+          </div>
+          <div className="form-row">
+            <button type="submit" className="btn">
+              Search
+            </button>
+          </div>
+
+          <div className="form-row">
+            <button className="btn" onClick={() => handleReset()}>
+              Reset
+            </button>
+          </div>
         </form>
       </div>
       <div class="list container">

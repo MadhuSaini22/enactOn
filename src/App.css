@@ -87,3 +87,12 @@ input:focus {
 .main {
   background-color: black;
 }
+
+@media screen and (max-width: 500px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.5em;
+  }
+}
