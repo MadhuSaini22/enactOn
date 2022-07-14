@@ -32,7 +32,7 @@
   align-items: center;
 }
 .list .allitems:hover {
-  box-shadow: rgb(0 0 0 / 42%) 0px 8px 24px;
+  box-shadow: rgba(138, 148, 209, 0.42) 0px 8px 24px;
 }
 
 .list .allitems .top {
