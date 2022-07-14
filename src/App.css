@@ -27,12 +27,12 @@
   width: 80%;
   border-radius: 15px;
   border: 0.5px solid #d3d3d3;
-  box-shadow: rgb(0 0 0 / 12%) 0px 8px 24px;
+  box-shadow: #514f5f 0px 8px 24px;
   text-align: center;
   align-items: center;
 }
 .list .allitems:hover {
-  box-shadow: rgba(138, 148, 209, 0.42) 0px 8px 24px;
+  box-shadow: #7062db 0px 8px 24px;
 }
 
 .list .allitems .top {
