@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.green {
+  color: rgb(4, 162, 4);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.red {
+  color: red;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.container {
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  background-color: black;
+  border-radius: 15px;
+}
+.allitems {
+  background-color: #d3d3d3;
+}
+.list .allitems {
+  display: flex;
+  flex-direction: row;
+  margin: 0.4rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 12px 22px;
+  width: 80%;
+  border-radius: 15px;
+  border: 0.5px solid #d3d3d3;
+  box-shadow: rgb(0 0 0 / 12%) 0px 8px 24px;
+  text-align: center;
+  align-items: center;
+}
+.list .allitems:hover {
+  box-shadow: rgb(0 0 0 / 42%) 0px 8px 24px;
+}
+
+.list .allitems .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.list .allitems img {
+  width: 40px;
+  margin: auto;
+  padding: 2px;
+  margin: 5px;
+}
+
+form {
+  padding: 30px;
+}
+.btn {
+  padding: 4px;
+  margin: 7px;
+  display: block;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  background: #a29bfe;
+  outline: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #6c5ce7;
+}
+input {
+  border: 2px solid #d1cdcd;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  background: transparent;
+  outline: none;
+  transition: 0.3s;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+input:focus {
+  border-color: #a29bfe;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main {
+  background-color: black;
 }
